@@ -2,7 +2,7 @@
   display: inline-block;
   line-height: 2.5;
   padding: 0 1.2em;
-  margin: 1em .5em 0;
+  margin: 1.5em 0 0;
   color: $white;
   &.primary {
     background: $color1;
@@ -18,9 +18,9 @@
   }
   &.third {
     background: $color3;
-    color: $color1;
+    color: $color2;
     &:hover {
-      background: darken($color3,5);
+      background: darken($color3,4);
     }
   }
 }
