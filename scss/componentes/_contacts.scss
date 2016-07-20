@@ -9,11 +9,6 @@
       }
     }
 }
-
-
-
-
-
 // Contenedor del mapa
 .contact-data {
 
@@ -45,8 +40,26 @@
 
   [type="submit"]{
     text-transform: uppercase;
-    line-height: 3;
+    line-height: 2.5;
     width: auto;
     cursor: pointer;
   }
+}
+.contact{
+  width: 100%;
+  margin: 2em 0;
+  padding-top: 100px;
+}
+.contact-subtitle{
+  display: table;
+  background: $color2;
+  color:$white;
+  padding: .3em .2em;
+  text-transform: uppercase;
+  margin: 2px 0 2em;
+
+}
+.contact-data,.contact-form-container{
+  border-top: 2px solid $color2;
+  margin: 2em 0;
 }

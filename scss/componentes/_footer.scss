@@ -1,0 +1,32 @@
+.main-footer{
+    background-color: #111;
+    color: $white;
+    padding: 10em 0;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+}
+body{
+    background-attachment: fixed;
+}
+.sociales{
+    width: $social-size*6;
+    margin:1em auto 2em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+[class^=social-]{
+    display: block;
+    width: $social-size;
+    height: $social-size;
+    background: $color2;
+    color:white;
+
+    transition: .3s all;
+
+    &:hover{
+        background: rgba($color2,.5);
+    }
+}

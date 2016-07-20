@@ -1,7 +1,8 @@
-$(function(){
-  var toggleMenu = $('#toggle-menu');
-  var nav = $('#main-nav');
-  toggleMenu.on('click',function(){
-    nav.add($('body')).toggleClass('mostrar');
-  });
+var toggleMenu = document.getElementById('toggleMenu'),
+menu = document.getElementById('menu'),
+body = document.getElementById('body');
+
+toggleMenu.addEventListener('click',function(){
+    menu.classList.toggle('mostrar');
+    body.classList.toggle('mostrar');
 });
